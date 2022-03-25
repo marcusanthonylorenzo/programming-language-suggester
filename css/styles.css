@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body {
+  font-family: 'Roboto Mono';
+}
+
 .container {
   display: flex;
   margin: auto;
@@ -6,6 +12,9 @@
 /* Display/Output area */
 #display {
   display: none;
+  background-color: rgba(170, 142, 235, 0.918);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  width: 104%;
 }
 
 .outputBox {
@@ -13,26 +22,42 @@
   position: absolute;
   margin-left: 10%;
   padding: 5%;
-  height: 80%;
-  width: 70%;
+  height: 75%;
+  width: 65%;
   top: 20%;
-  background-color: rgba(170, 142, 235, 0.918);
-  border: 1px solid rgba(255, 255, 255, 0.9);
 }
 
 .closeBox {
   display: flex;
+  position: relative;
   justify-content: flex-end;
 }
 
 a {
   text-decoration: none;
+  padding: 1%;
 }
+
+.closed {
+  display: none;
+}
+
 .popUp {
   display: flex;
   position: absolute;
-  width: 70%;
-  height: 50%;
+  padding: 5%;
+  width: 80%;
+  height: 60%;
+  background-color: rgba(170, 142, 235, 0.918);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.popUpText{
+  position: relative;
+  padding: 5%;
+  width: 80%;
+  height: 50vh;
+  overflow: overlay;
 }
 
 #arnieImg {
