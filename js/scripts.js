@@ -23,12 +23,11 @@ $(document).ready(function () {
 
 
     if (totalValueResult <= 20) {
-      display.text("1").show();
-      display.html("<div class='closeBox'><a href='#' id='close'>X</a></div>");
+      // display.html("").show();
+      display.html("<div class='closeBox'><a href='#' id='close'>X</a></div><div id='arnie'><img src='css/images/arnieImg.png' id='arnieImg'><div id='arnieText'><h4> Congrats! You got <strong>Arnold C</strong></h4> <p>Named after the Governator himself, you don't seem to mind anything too complicated; infact, you may get by in life with basic syntax and lots of yelling. Enjoy pumping weights and pumping out mindless code!</p></div></div>").show();
       outputBox.show();
     } else if (totalValueResult >20 && totalValueResult < 30) {
-      display.text("2").show();
-      display.html("<div class='closeBox'><a href='#' id='close'>X</a></div>");
+      display.html("<div class='closeBox'><a href='#' id='close'>X</a></div><div id='arnie'><img src='css/images/arnieImg.png' id='arnieImg'><div id='arnieText'><h4> Congrats! You got <strong>Swift</strong></h4> <p>So, you might be low-maintainence and prefer something reliable, <em>or</em> you might be high-maintainence and slightly pretentious, but you enjoy the finer things in life. Either way: you probably love coffee, have some sense of minimalism, and love you some wholesome, quality, and straight-forward (albeit exclusive) code.</p></div></div>").show();
       outputBox.show();
     } else {
       display.text("3").show();
@@ -36,7 +35,7 @@ $(document).ready(function () {
       outputBox.show();
     };
 
-    if (closeBox )
+    if (closeBox)
 
     console.log(totalValueResult);
 

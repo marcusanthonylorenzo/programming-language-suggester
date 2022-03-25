@@ -11,11 +11,12 @@
 .outputBox {
   display: none;
   position: absolute;
-  margin-left: 20%;
-  height: 50%;
-  width: 60%;
+  margin-left: 10%;
+  padding: 5%;
+  height: 80%;
+  width: 70%;
   top: 20%;
-  background-color: rgba(198, 184, 231, 0.8);
+  background-color: rgba(170, 142, 235, 0.918);
   border: 1px solid rgba(255, 255, 255, 0.9);
 }
 
@@ -26,8 +27,20 @@
 
 a {
   text-decoration: none;
-  padding: 2%;
-  margin-right: 1%;
+}
+#arnie {
+  display: flex;
+  position: absolute;
+  width: 70%;
+  height: 50%;
+}
+
+#arnieImg {
+  height: 400px;
+}
+
+#arnieText {
+  padding: 10%;
 }
 
 /* Form */
