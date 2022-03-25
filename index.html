@@ -3,14 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Address Book</title>
+    <title>CHOOSE YOUR PROGRAMMING LANGUAGE</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
   </head>
   <body>
 
-    <!--- Results should lead to Swift C++ or Arnold C-->
     <div class="container">
       <form id="form">
         <h1>Which programming language should you choose first?</h1>
@@ -31,6 +30,10 @@
             <input type="radio" name="coffee" value="10">
             ...with nothing but black coffee.
           </label>
+          <label>
+            <input type="radio" name="coffee" value="0">
+            I don't drink coffee.
+          </label>
         </div>
 
         <div class="form-group" id="2">
@@ -44,6 +47,10 @@
             No.
           </label>
           <label>
+            <input type="radio" name="pain" value="0">
+            Uhhh...
+          </label>
+          <label>
             <input type="radio" name="pain" value="5">
             Depends on the mood.
           </label>
@@ -53,11 +60,15 @@
           <h4>How tidy is your room?</h4>
           <label>
             <input type="radio" name="room" value="5">
-            It's alright. I got a "system" of clothes on that chair, things over there.
+            It's alright. I got a "system" of clothes on <em>that</em> chair, & things over there.
           </label>
           <label>
             <input type="radio" name="room" value="1">
             I think I need to really get my stuff together.
+          </label>
+          <label>
+            <input type="radio" name="room" value="0">
+            #vanlife
           </label>
           <label>
             <input type="radio" name="room" value="10">
@@ -72,8 +83,12 @@
             I don't like pizza.
           </label>
           <label>
+            <input type="radio" name="pizza" value="0">
+            I am Italian. This is not even a real pizza.
+          </label>
+          <label>
             <input type="radio" name="pizza" value="5">
-            Absolutely not.
+            I don't mind!
           </label>
           <label>
             <input type="radio" name="pizza" value="1">
@@ -88,19 +103,23 @@
             Electric! Environment and green, all day.
           </label>
           <label>
-            <input type="radio" name="car" value="10">
+            <input type="radio" name="car" value="5">
             A sports car.
           </label>
           <label>
-            <input type="radio" name="car" value="5">
+            <input type="radio" name="car" value="10">
             An SUV or truck.
+          </label>
+          <label>
+            <input type="radio" name="car" value="5">
+            Bike.
           </label>
         </div>
 
         <div class="form-group" id="6">
           <h4>Favorite type of book?</h4>
           <label>
-            <input type="radio" name="book" value="10">
+            <input type="radio" name="book" value="8">
             Harry Potter. *another overly-posh, "Queens English" accent*
           </label>
           <label>
@@ -110,6 +129,10 @@
           <label>
             <input type="radio" name="book" value="1">
             I don't read.
+          </label>
+          <label>
+            <input type="radio" name="book" value="10">
+            I was a fan of "Dune" way before Timothee Chalamet was cool.
           </label>
         </div>
 
