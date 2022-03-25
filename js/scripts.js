@@ -15,20 +15,29 @@ $(document).ready(function () {
     const pizzaRadioValue = parseInt($("input:radio[name=pizza]:checked").val());
     const carRadioValue = parseInt($("input:radio[name=car]:checked").val());
     const bookRadioValue = parseInt($("input:radio[name=book]:checked").val());
-    const button = $("#button");
     const display = $("#display");
+    const outputBox = $(".outputBox");
+    const closeBox= $("#close");
 
     let totalValueResult = totalValue(coffeeRadioValue, painRadioValue, roomRadioValue, pizzaRadioValue, carRadioValue, bookRadioValue);
 
 
     if (totalValueResult <= 20) {
       display.text("1").show();
+      display.html("<div class='closeBox'><a href='#' id='close'>X</a></div>");
+      outputBox.show();
     } else if (totalValueResult >20 && totalValueResult < 30) {
       display.text("2").show();
+      display.html("<div class='closeBox'><a href='#' id='close'>X</a></div>");
+      outputBox.show();
     } else {
       display.text("3").show();
+      display.html("<div class='closeBox'><a href='#' id='close'>X</a></div>");
+      outputBox.show();
     };
-    
+
+    if (closeBox )
+
     console.log(totalValueResult);
 
   });
