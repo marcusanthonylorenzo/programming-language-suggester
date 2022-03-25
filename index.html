@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Address Book</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
@@ -13,110 +13,112 @@
   <body>
 
     <!--- Results should lead to Swift C++ or Arnold C-->
-    <form id="form">
-      <h1>Which programming language should you choose first?</h1>
-      <h2>Choose your <strong>fighter</strong>:</h2>
+    <div class="container">
+      <form id="form">
+        <h1>Which programming language should you choose first?</h1>
+        <h2>Choose your <strong>fighter</strong>:</h2>
 
-      <div class="form-group" id="1">
-        <h4>How do you like your coffee?</h4>
-        <label>
-          <input type="radio" name="coffee" value="1" checked>
-          ...with syrup and/or sugar, no cream.
-        </label>
-        <label>
-          <input type="radio" name="coffee" value="5">
-          ...with syrup and/or sugar, and cream.
-        </label>
-        <label>
-          <input type="radio" name="coffee" value="10">
-          ...with nothing but black coffee.
-        </label>
-      </div>
+        <div class="form-group" id="1">
+          <h4>How do you like your coffee?</h4>
+          <label>
+            <input type="radio" name="coffee" value="1" checked>
+            ...with syrup and/or sugar, no cream.
+          </label>
+          <label>
+            <input type="radio" name="coffee" value="5">
+            ...with syrup and/or sugar, and cream.
+          </label>
+          <label>
+            <input type="radio" name="coffee" value="10">
+            ...with nothing but black coffee.
+          </label>
+        </div>
 
-      <div class="form-group" id="2">
-        <h4>Do you enjoy pain?</h4>
-        <label>
-          <input type="radio" name="pain" value="10" checked>
-          Yes.
-        </label>
-        <label>
-          <input type="radio" name="pain" value="1">
-          No.
-        </label>
-        <label>
-          <input type="radio" name="pain" value="5">
-          Depends on the mood.
-        </label>
-      </div>
+        <div class="form-group" id="2">
+          <h4>Do you enjoy pain?</h4>
+          <label>
+            <input type="radio" name="pain" value="10" checked>
+            Yes.
+          </label>
+          <label>
+            <input type="radio" name="pain" value="1">
+            No.
+          </label>
+          <label>
+            <input type="radio" name="pain" value="5">
+            Depends on the mood.
+          </label>
+        </div>
 
-      <div class="form-group" id="3">
-        <h4>How tidy is your room?</h4>
-        <label>
-          <input type="radio" name="room" value="5" checked>
-          It's alright. I got a "system" of clothes on that chair, things over there.
-        </label>
-        <label>
-          <input type="radio" name="room" value="1">
-          I think I need to really get my stuff together.
-        </label>
-        <label>
-          <input type="radio" name="room" value="10">
-          Immaculate. *general pretentious British accent*
-        </label>
-      </div>
+        <div class="form-group" id="3">
+          <h4>How tidy is your room?</h4>
+          <label>
+            <input type="radio" name="room" value="5" checked>
+            It's alright. I got a "system" of clothes on that chair, things over there.
+          </label>
+          <label>
+            <input type="radio" name="room" value="1">
+            I think I need to really get my stuff together.
+          </label>
+          <label>
+            <input type="radio" name="room" value="10">
+            Immaculate. *general pretentious British accent*
+          </label>
+        </div>
 
-      <div class="form-group" id="4">
-        <h4>Imagine it's 2015. Does pineapple go on pizza?</h4>
-        <label>
-          <input type="radio" name="pizza" value="10" checked>
-          I don't like pizza.
-        </label>
-        <label>
-          <input type="radio" name="pizza" value="5">
-          Absolutely not.
-        </label>
-        <label>
-          <input type="radio" name="pizza" value="1">
-          Dude, Hawaiian pizza was created by a Canadian, but I dig it!
-        </label>
-      </div>
+        <div class="form-group" id="4">
+          <h4>Imagine it's 2015. Does pineapple go on pizza?</h4>
+          <label>
+            <input type="radio" name="pizza" value="10" checked>
+            I don't like pizza.
+          </label>
+          <label>
+            <input type="radio" name="pizza" value="5">
+            Absolutely not.
+          </label>
+          <label>
+            <input type="radio" name="pizza" value="1">
+            Dude, Hawaiian pizza was created by a Canadian, but I dig it!
+          </label>
+        </div>
 
-      <div class="form-group" id="5">
-        <h4>What is your ideal type of car?</h4>
-        <label>
-          <input type="radio" name="car" value="1" checked>
-          Electric! Environment and green, all day.
-        </label>
-        <label>
-          <input type="radio" name="car" value="10">
-          A sports car.
-        </label>
-        <label>
-          <input type="radio" name="car" value="5">
-          A truck.
-        </label>
-      </div>
+        <div class="form-group" id="5">
+          <h4>What is your ideal type of car?</h4>
+          <label>
+            <input type="radio" name="car" value="1" checked>
+            Electric! Environment and green, all day.
+          </label>
+          <label>
+            <input type="radio" name="car" value="10">
+            A sports car.
+          </label>
+          <label>
+            <input type="radio" name="car" value="5">
+            A truck.
+          </label>
+        </div>
 
-      <div class="form-group" id="6">
-        <h4>Favorite type of book?</h4>
-        <label>
-          <input type="radio" name="book" value="10" checked>
-          Harry Potter. *another overly-posh, "Queens English" accent*
-        </label>
-        <label>
-          <input type="radio" name="book" value="5">
-          I read the internets?
-        </label>
-        <label>
-          <input type="radio" name="book" value="1">
-          I don't read.
-        </label>
-      </div>
+        <div class="form-group" id="6">
+          <h4>Favorite type of book?</h4>
+          <label>
+            <input type="radio" name="book" value="10" checked>
+            Harry Potter. *another overly-posh, "Queens English" accent*
+          </label>
+          <label>
+            <input type="radio" name="book" value="5">
+            I read the internets?
+          </label>
+          <label>
+            <input type="radio" name="book" value="1">
+            I don't read.
+          </label>
+        </div>
 
-      <button type="submit" class="btn">Submit</button>
-    </form>
+        <button type="submit" class="btn" id="button">Submit</button>
+      </form>
+    </div>
 
-    <div class="display"></div>
+    <div id="display"></div>
 
   </body>
 </html>

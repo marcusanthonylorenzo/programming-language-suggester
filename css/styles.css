@@ -1,7 +1,17 @@
+.container {
+  margin: auto;
+}
 
+#display {
+  display: none;
+}
 
 #form {
-  display: grid;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
   gap: 2rem;
 }
 
@@ -9,4 +19,8 @@
   display: flex;
   flex-direction: column;
   
+}
+
+#button {
+  width: 30%;
 }
