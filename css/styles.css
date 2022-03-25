@@ -28,7 +28,7 @@
 a {
   text-decoration: none;
 }
-#arnie {
+.popUp {
   display: flex;
   position: absolute;
   width: 70%;
@@ -39,8 +39,16 @@ a {
   height: 400px;
 }
 
-#arnieText {
-  padding: 10%;
+#apple {
+  height: 280px;
+}
+
+#hackermanImg {
+  height: 280px;
+}
+
+.popUpText {
+  padding-left: 5%;
 }
 
 /* Form */
@@ -67,10 +75,11 @@ a {
 
 h1, h2, h4 {
   margin: 0;
-  padding-bottom: 3%;
+  padding-bottom: 1%;
 }
 
-h4 {
+h3 {
+  margin-top: 0;
   margin-bottom: 1rem;
   font-size: 20px;
 }
