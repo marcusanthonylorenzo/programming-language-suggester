@@ -20,11 +20,11 @@ body {
 .outputBox {
   display: none;
   position: absolute;
-  margin-left: 10%;
+  margin-left: 12%;
   padding: 5%;
   height: 75%;
   width: 65%;
-  top: 20%;
+  top: 15%;
 }
 
 .closeBox {
@@ -47,7 +47,7 @@ a {
   position: absolute;
   padding: 5%;
   width: 80%;
-  height: 60%;
+  height: 50vh;
   background-color: rgba(170, 142, 235, 0.918);
   border: 1px solid rgba(255, 255, 255, 0.9);
 }
@@ -56,20 +56,22 @@ a {
   position: relative;
   padding: 5%;
   width: 80%;
-  height: 50vh;
+  height: 42vh;
   overflow: overlay;
 }
 
 #arnieImg {
-  height: 400px;
+  height: 102%;
 }
 
 #apple {
-  height: 280px;
+  padding-top: 5%;
+  height: 45%;
 }
 
 #hackermanImg {
-  height: 280px;
+  padding-top: 4%;
+  height: 65%;
 }
 
 .popUpText {
