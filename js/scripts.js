@@ -6,7 +6,7 @@ function totalValue (input1, input2, input3, input4, input5, input6) {
 //UX UI Logic
 $(document).ready(function () {
   $("#form").submit(function(event) {
-
+    event.preventDefault();
 
   //primary selectors
     const coffeeRadioValue = parseInt($("input:radio[name=coffee]:checked").val());
@@ -21,19 +21,14 @@ $(document).ready(function () {
     let totalValueResult = totalValue(coffeeRadioValue, painRadioValue, roomRadioValue, pizzaRadioValue, carRadioValue, bookRadioValue);
 
 
-    button.click(function () {
-      if (totalValueResult <= 20) {
-        display.text("1")
-        display.show();
-      } else if (totalValueResult >20 && totalValueResult < 30) {
-        display.text("2")
-        display.show();
-      } else {
-        display.text("3")
-        display.show();
-      };
-    })
-    event.preventDefault();
+    if (totalValueResult <= 20) {
+      display.text("1").show();
+    } else if (totalValueResult >20 && totalValueResult < 30) {
+      display.text("2").show();
+    } else {
+      display.text("3").show();
+    };
+    
     console.log(totalValueResult);
 
   });
