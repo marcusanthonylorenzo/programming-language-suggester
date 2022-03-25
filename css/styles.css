@@ -23,7 +23,7 @@ body {
   position: absolute;
   margin-left: 12%;
   padding: 5%;
-  height: 75%;
+  height: 65%;
   width: 65%;
   top: 14%;
 }
@@ -94,7 +94,8 @@ a {
 .form-group {
   display: flex;
   flex-direction: column;
-  
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #button {
@@ -110,4 +111,30 @@ h3 {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 20px;
+}
+
+#error {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  height: 70%;
+  overflow: overlay;
+}
+
+#steve {
+  position: relative;
+  height: 40%;
+  width: 40%;
+}
+
+#parkour {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  font-size: 1rem;
+  bottom: 10%;
+}
+
+#submit {
+  margin-bottom: 5vh;
 }
