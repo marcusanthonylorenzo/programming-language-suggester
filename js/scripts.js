@@ -7,6 +7,7 @@ function totalValue (input1, input2, input3, input4, input5, input6) {
 $(document).ready(function () {
   $("#form").submit(function(event) {
     event.preventDefault();
+    
     //primary selectors
     const coffeeRadioValue = parseInt($("input:radio[name=coffee]:checked").val());
     const painRadioValue= parseInt($("input:radio[name=pain]:checked").val());
@@ -17,6 +18,7 @@ $(document).ready(function () {
     const container = $(".container");
     const display = $("#display");
     const outputBox = $(".outputBox");
+
     //function
     let totalValueResult = totalValue(coffeeRadioValue, painRadioValue, roomRadioValue, pizzaRadioValue, carRadioValue, bookRadioValue);
 
