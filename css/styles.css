@@ -9,12 +9,17 @@ body {
   padding-top: 2%;
 }
 
+.bgFade {
+  background-color: rgba(223, 167, 191, 0.664);
+}
+
 /* Display/Output area */
 #display {
   display: none;
   background-color: rgba(170, 142, 235, 0.918);
   border: 1px solid rgba(255, 255, 255, 0.9);
   width: 104%;
+  box-shadow: 12px 12px rgba(185, 185, 185, 0.507);
 }
 
 .outputBox {
@@ -50,6 +55,7 @@ a {
   height: 50vh;
   background-color: rgba(170, 142, 235, 0.918);
   border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 12px 12px rgba(185, 185, 185, 0.507);
 }
 
 .popUpText{
@@ -58,6 +64,10 @@ a {
   width: 80%;
   height: 42vh;
   overflow: overlay;
+}
+
+.popUp img {
+  padding-left: 2%;
 }
 
 #arnieImg {
@@ -101,29 +111,44 @@ a {
   width: 30%;
 }
 
-h1, h2, h4 {
+h1, h2{
   margin: 0;
-  padding-bottom: 1%;
 }
 
 h3 {
   margin-top: 0;
-  margin-bottom: 1rem;
   font-size: 20px;
+}
+
+h4 {
+  margin: 0;
 }
 
 #error {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-size: 2rem;
-  height: 70%;
+  height: 60%;
   overflow: overlay;
+}
+
+#error p {
+  text-align: center;
+  font-size: 16px;
+  margin: 1%;
+}
+
+#cat {
+  height: 35%;
+  margin-top: 2%;
 }
 
 #steve {
   position: relative;
   height: 40%;
-  width: 40%;
+  width: 38%;
+
 }
 
 #parkour {
