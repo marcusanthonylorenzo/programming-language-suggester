@@ -166,3 +166,38 @@ h4 {
 #submit {
   margin-bottom: 5vh;
 }
+
+@media (orientation: portrait) {
+
+  .container {
+    height: 100vh;
+  }
+
+  #form {
+    margin-top: 20%;
+  }
+  
+  .popUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #arnieImg {
+    height: 70%;
+  }
+
+  #python {
+    width: 80%;
+  }
+
+  #swift {
+    margin: 20%;
+  }
+
+  #steve {
+    height: 40%;
+    width: 90%;
+  }
+
+}
