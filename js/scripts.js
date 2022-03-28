@@ -19,7 +19,7 @@ $(document).ready(function () {
     const display = $("#display");
     const outputBox = $(".outputBox");
 
-    //non-selector expressions
+    //non-selectors
     let totalValueResult = totalValue(coffeeRadioValue, painRadioValue, roomRadioValue, pizzaRadioValue, carRadioValue, bookRadioValue);
     let closePopUpBar = "<div class='closeBox'><button class='close'>X</button></div>";
 
