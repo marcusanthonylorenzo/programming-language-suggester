@@ -25,7 +25,7 @@ _First time making a modal - it was a random decision within the first hour. I c
 * This will bring you to your desktop location on the command line, to receive files.
 * Next, type: **git clone https://github.com/marcusanthonylorenzo/programming-language-suggester**
 * Once completed, type **cd programming-language-suggester**
-* On the new line, type **code .** or open in any text editor. I recommend [VS Code](https://code.visualstudio.com/).
+* Open index.html in your browser.
 * Once your text editor is open, access "index.html" via live server or manually with your browser.
 
 
